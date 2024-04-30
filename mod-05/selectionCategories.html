@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Sanaya</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+		
+		<fieldset>
+			<legend>Produits par catégorie</legend>
+
+			<form action="getProduits.php" method="GET" >
+
+				<label>Catégories :</label>
+				
+				<input type="checkbox" name="categories[]" value="hl-ess" />Huiles Essentielles
+				<br/>
+				<input type="checkbox" name="categories[]" value="mcrt-hlx" />Macérâts Huileux
+				<br/>
+				<input type="checkbox" name="categorie" value="hl-ess"/>Extraits de Plantes
+				<br/>
+				<input type="checkbox" name="categorie" value="mcrt-hlx" />Argiles 
+				<br/>
+				
+				<br/>
+				<button type="reset" > Re-initialiser </button>
+				
+
+			</form>
+
+
+		</fieldset>
+		
+	</body>
+	
+</html>
