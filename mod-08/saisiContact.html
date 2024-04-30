@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Sanaya</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+		
+		<fieldset>
+			<legend>CONTACT</legend>
+
+			<form action="recapituler.php" method="POST" >
+
+				<label>Civilité</label>
+					<input type="radio" name="civilite" value="melle" checked /> Melle
+					<input type="radio" name="civilite" value="mme" checked /> Mme
+					<input type="radio" name="civilite" value="mr" checked /> M.
+				</br>
+				
+				<label> Nom </label>
+				<input type="text" name="nom" />
+				</br>
+				
+				<label> Prenom </label>
+				<input type="text" name="prenom" />
+				</br>
+								
+				<label> Numero de téléphone </label>
+				<input type="tel" name="telephone"/>
+				</br>
+				
+				<label> Email </label>
+				<input type="email" name="email" />
+				</br>
+					
+				<label> Raison :</label>
+				<br/>
+				
+				<select name="raison" size="4" > 
+					<option value="ren">renseignement</option>
+					<option value="recla">reclamation</option>
+					<option value="cmd">commande</option>				
+				</select>
+				
+				<label> Je souhaite être recontacter par : </label>
+				<br/>
+				<input type="checkbox" name="rps" value="mail" checked/>Email
+								
+				<br/>
+				<input type="checkbox" name="rps" value="tel" />Téléphone
+				<br/>
+				
+				<br/>
+				<input type="checkbox" name="rps" value="sms"/>SMS
+				<br/>
+				
+				<br/>
+				<button type="reset" > Envoyer </button>
+				
+
+			</form>
+
+
+		</fieldset>
+		
+	</body>
+	
+</html>
